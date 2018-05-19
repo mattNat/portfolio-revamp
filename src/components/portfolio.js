@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import '../styles/portfolio.css';
 
 export default function Portfolio() {
+
+  const portfolioInput = () => {
+    
+  }
+
   return (
     <div className="portfolio">
       <a name="portfolio" />
