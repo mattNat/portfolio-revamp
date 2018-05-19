@@ -1,0 +1,36 @@
+.content-section-a {
+  padding: 50px 0;
+  background: url('https://68.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_540.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+
+.bg-overlay2 {
+margin-top: -50px;
+background: rgba(255, 255, 255, 0.2);
+height: 855px;
+}
+
+/*text*/
+.content-section-a p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.content-section-a p a {
+  color: silver;
+  font-weight: bold;
+}
+
+/*profile picture*/
+.img-circle {
+  margin-top: 150px;
+  border: 1px outset rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 400;
+}
