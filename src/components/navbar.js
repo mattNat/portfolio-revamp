@@ -14,7 +14,7 @@ export default function NavBar() {
               <span className="icon-bar" />
               <span className="icon-bar" />
             </button>
-            <a className="navbar-brand topnav" href="http://virtual-dawn.com/index_english.html" target="_blank">Matt San Pedro</a>
+            <a className="navbar-brand topnav" href="https://www.linkedin.com/in/matthew-san-pedro-m-s-34585623/" target="_blank">Matt San Pedro</a>
           </div>
           {/* Collect the nav links, forms, and other content for toggling */}
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

@@ -5,10 +5,17 @@
   height: 855px;
 }
 
+.about-description {
+  margin-top: 5%;
+  background-color: grey;
+  background: rgba(140, 140, 140, 0.7) ; 
+  border-radius: 5px; 
+}
+
 .bg-overlay2 {
-margin-top: -50px;
-background: rgba(255, 255, 255, 0.2);
-height: 855px;
+  margin-top: -50px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 855px;
 }
 
 /*text*/

@@ -10,7 +10,7 @@ export default function AboutMe() {
           <div className="bg-overlay2">
             <div className="container">
               <div className="row">
-                <div className="col-lg-5 col-sm-6">
+                <div className="col-lg-5 col-sm-6 about-description">
                   <div className="clearfix" />
                   <h2 className="section-heading">Thinkful Engineering Immersion Graduate</h2>
                   <br />
