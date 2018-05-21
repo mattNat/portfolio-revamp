@@ -11,20 +11,27 @@ export default function Portfolio() {
     {
       deploy: "https://schedio.netlify.com",
       screenshot: require('../img/schedio.png'),
-      title: "Schedio: Travel Itinerary",
-      comment: "Yelp API, Google Maps API, Sports API",
+      title: "Schedio",
+      // comment: `Yelp API, Google Maps API, Sports API`,
+      comment: "Schedio is the Greek word for design. We give users the freedom to design their own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.",
+      client: "https://github.com/thinkful-ei18/schedio-client",
+      server: "https://github.com/thinkful-ei18/schedio_server",
     },
     {
       deploy: "https://admiring-liskov-604b28.netlify.com/",
       screenshot: require('../img/spanishTutor.png'),
-      title: "Spanish Tutor: Space Repetition",
-      comment: "Weighted Questions in Singly-Linked List",
+      title: "Spanish Tutor",
+      comment: "Spanish Tutor is a quiz app designed to adapt to your learning needs. This means that questions you get right more often will be asked later. The questions you tend to get wrong will be asked again sooner.",
+      client: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Client",
+      server: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Server",
     },
     {
       deploy: "http://gracious-bose-61bbb2.netlify.com",
       screenshot: require('../img/hikingFriend.png'),
-      title: "Hiking Friend: Search Trails",
-      comment: "Hiking Project API",
+      title: "Hiking Friend",
+      comment: "An earlier version of Schedio.  Combines both the Google Geolocations API and Hiking Project API to search hiking trails within a 10 mile radius.  Important trail data is displayed such as trail conditions, round-trip distance, and elevation.",
+      client: "https://github.com/mattNat/hiking-app/tree/master/client",
+      server: "https://github.com/mattNat/hiking-app/tree/master/server",
     },
   ]
 
@@ -35,9 +42,9 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center portfolio-intro">
-              <h2 className="section-heading">My Portfolio</h2>
+              <h2 className="section-heading">Portfolio</h2>
               <h3 id="below-section" className="section-subheading text-muted">
-                Below you'll find some of my recent work.
+                Recent work all built with MERN Stack.
               </h3>
             </div>
           </div>
@@ -48,6 +55,8 @@ export default function Portfolio() {
                 screenshot={item.screenshot} 
                 title={item.title} 
                 comment={item.comment} 
+                client={item.client}
+                server={item.server}
               />
             })}
           </div>

@@ -6,10 +6,11 @@
 }
 
 .about-description {
-  margin-top: 5%;
+  margin-top: 2%;
   background-color: grey;
   background: rgba(140, 140, 140, 0.7) ; 
   border-radius: 5px; 
+  /* width: 600px; */
 }
 
 .bg-overlay2 {
@@ -19,8 +20,12 @@
 }
 
 /*text*/
+.about-me .section-heading {
+  font-size: 40px;
+}
+
 .content-section-a p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #000;
 }

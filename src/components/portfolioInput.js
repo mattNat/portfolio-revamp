@@ -6,14 +6,19 @@ export default function PortfolioInput(props) {
       <a href={props.deploy} target="_blank" className="portfolio-link" data-toggle="modal">
         <div className="portfolio-hover">
           <div className="portfolio-hover-content">
-            <i className="fa fa-fire fa-3x" />
+            <i className="fa fa-linux fa-3x" />
           </div>
         </div>
         <img src={props.screenshot} className="img-responsive" alt />
       </a>
       <div className="portfolio-caption">
         <h4>{props.title}</h4>
-        <p id="small-text" className="text-muted">{props.comment}</p>
+        <p id="small-text" className="text-muted">
+          {props.comment} <br/>
+          Source: 
+          <a href={props.client}>Client</a> |
+          <a href={props.server}>Server</a>          
+        </p>
       </div>
     </div>
   )
