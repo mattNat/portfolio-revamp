@@ -2,26 +2,29 @@ import React, { Component } from 'react';
 
 import PortfolioInput from './portfolioInput';
 import '../styles/portfolio.css';
+
+// images from projects
+import SchedioDash from '../img/schedio.png';
     
 export default function Portfolio() {
   const data = [
     {
-      deploy: "https://codepen.io/ThiagoFerreir4/full/gpvJOK",
-      screenshot: "https://68.media.tumblr.com/a4a06b925ad2ad936ba2ce6c3343c444/tumblr_nwh4epTtMV1ud7rr3o1_1280.jpg",
-      title: "Twitch.tv API project!",
-      comment: "Bootstrap and Angularjs",
+      deploy: "https://schedio.netlify.com",
+      screenshot: require('../img/schedio.png'),
+      title: "Schedio: Travel Itinerary",
+      comment: "Yelp API, Google Maps API, Sports API",
     },
     {
-      deploy: "https://codepen.io/ThiagoFerreir4/full/gpvJOK",
-      screenshot: "https://40.media.tumblr.com/a73e79ce9844761d7cdc93d202b5cea1/tumblr_nwh4iomduD1ud7rr3o1_1280.jpg",
-      title: "Twitch.tv API project!",
-      comment: "Bootstrap and Angularjs",
+      deploy: "https://admiring-liskov-604b28.netlify.com/",
+      screenshot: require('../img/spanishTutor.png'),
+      title: "Spanish Tutor: Space Repetition",
+      comment: "Weighted Questions in Singly-Linked List",
     },
     {
-      deploy: "https://codepen.io/ThiagoFerreir4/full/gpvJOK",
-      screenshot: "https://68.media.tumblr.com/a4a06b925ad2ad936ba2ce6c3343c444/tumblr_nwh4epTtMV1ud7rr3o1_1280.jpg",
-      title: "Twitch.tv API project!",
-      comment: "Bootstrap and Angularjs",
+      deploy: "http://gracious-bose-61bbb2.netlify.com",
+      screenshot: require('../img/hikingFriend.png'),
+      title: "Hiking Friend: Search Trails",
+      comment: "Hiking Project API",
     },
   ]
 
@@ -31,8 +34,8 @@ export default function Portfolio() {
       <section id="portfolio" className="bg-light-gray bounds">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="section-heading">Awesomeness Portfolio.</h2>
+            <div className="col-lg-12 text-center portfolio-intro">
+              <h2 className="section-heading">My Portfolio</h2>
               <h3 id="below-section" className="section-subheading text-muted">
                 Below you'll find some of my recent work.
               </h3>

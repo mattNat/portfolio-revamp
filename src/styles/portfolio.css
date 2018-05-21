@@ -1,11 +1,11 @@
 /* Portfolio section*/
 section {
   color: black;
-  background: url('../img/03433_starsoverjoshuatree_1920x1080.jpg') no-repeat center center fixed;
+  background: url('../img/03295_haleakalaview_1920x1080.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
- #below-section {
+#below-section {
   color: #000;
 }
 
@@ -13,18 +13,39 @@ section {
   color: white;
 }
 
-/*.portfolio-item {
+.portfolio-intro {
+  margin: 50px 0;
+  /* background-color: green; */
+}
+
+/* .portfolio-intro h2{
+  color: white;
+  background-color: green;
+} */
+
+.section-heading h2 {
+  margin-top: 50px;
+}
+
+.portfolio-item {
   overflow: hidden;
   padding: 7px;
   color: white;
   height: 308px;
-}*/
+}
+
+.portfolio-item img {
+  height: 220px;
+  width: 100%;
+  background-size: cover;
+}
+
 /*Portfolio items*/
 
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
-  border: 1px outset rgba(255, 255, 255, 0.6);
+  /* border: 1px outset rgba(255, 255, 255, 0.6); */
 }
 
 #portfolio .portfolio-item:hover {
