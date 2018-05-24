@@ -1,7 +1,7 @@
 /* contact */
 .banner {
   padding: 100px 0;
-  background: url('../img/04155_sunsetatthebeach_1920x1080.jpg') no-repeat center center fixed;
+  /* background: url('../img/04155_sunsetatthebeach_1920x1080.jpg') no-repeat center center fixed; */
   background-size: cover;
   height: 755px;
 }

@@ -1,7 +1,7 @@
 /* Portfolio section*/
 section {
   color: black;
-  background: url('../img/03295_haleakalaview_1920x1080.jpg') no-repeat center center fixed;
+  /* background: url('../img/03295_haleakalaview_1920x1080.jpg') no-repeat center center fixed; */
   background-size: cover;
 }
 
