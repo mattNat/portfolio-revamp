@@ -11,8 +11,8 @@ export default function Contact() {
             <div className="row">
               <div className="col-lg-6">
                 <h2 className="connect">
-                  Open to collaboration<br/>
-                  Reach out for any inquires<br/>
+                  Let's talk code<br/>
+                  Get in touch<br/>
                 </h2>
               </div>
               <br />

@@ -18,7 +18,7 @@ export default function Footer() {
                 </li>
                 <li className="footer-menu-divider">⋅</li>
                 <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#portfolio">Work</a>
                 </li>
                 <li className="footer-menu-divider">⋅</li>
                 <li>

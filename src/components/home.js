@@ -16,7 +16,7 @@ export default function Home() {
                   <hr className="intro-divider" />
                   <div className="row">
                     <div className="column">
-                      <img src={OahuBeach} alt="Oahu beach" className="header-slideshow header-slideshow-desktop"/>
+                      {/* <img src={OahuBeach} alt="Oahu beach" className="header-slideshow header-slideshow-desktop"/> */}
                     </div>
                   </div>
                 </div>

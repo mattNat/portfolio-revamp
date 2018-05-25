@@ -1,6 +1,7 @@
 footer {
   padding: 50px 0;
-  background: rgba(192, 192, 192, 0.9);
+  background-color: #eee;
+  /* background: rgba(192, 192, 192, 0.9); */
 }
 
 p.copyright {
