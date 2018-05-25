@@ -12,7 +12,7 @@ export default function NavBar() {
 							<ul>
 								<li><a href="#home">Home</a></li>
 								<li><a href="#about" class="smoothScroll">About</a></li>
-								<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+								<li><a href="#portfolio" class="smoothScroll">Work</a></li>
 								<li><a href="#contact" class="smoothScroll">Contact</a></li>
 							</ul>
 						</nav>

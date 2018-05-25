@@ -17,7 +17,11 @@ export default function Home() {
                       <h3>Full Stack Web Developer</h3>
                     {/* </span> */}
                     <hr className="intro-divider" />
-                    <img src={OahuBeach} alt="Oahu beach"/>
+                    <div class="row">
+                      <div class="column">
+                        <img src={OahuBeach} alt="Oahu beach" className="header-slideshow header-slideshow-desktop"/>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
