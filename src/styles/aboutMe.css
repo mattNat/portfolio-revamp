@@ -1,18 +1,52 @@
+.about-me {
+  background-color: #eee;
+  padding-right: 20px;
+}
+
+.about-me h1 {
+  padding-bottom: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+/* .about-font {
+  text-align: left;
+  margin-left: 30px;  
+} */
+
+.about-word {
+  display: inline-block;
+  font-size: 70%;
+  padding-left: 20px;
+}
+
+.about-row {
+  margin-top: 0;
+  text-align: center;
+  font-size: 3em;
+  color: black;
+}
+
 /*profile picture*/
 .img-circle {
   /* margin-top: 10px; */
   position: relative;
-  border: 1px outset rgba(255, 255, 255, 0.3);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  /* border: 1px outset rgba(255, 255, 255, 0.3); */
+  border: 2px outset black;
+  
+  /* box-shadow: 1px 1px 1px rgba(0,0,0,0.6); */
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+  /* border: 2px solid black; */
 }
 
-/* .lead {
+.lead {
   font-size: 18px;
   font-weight: 400;
-} */
+  text-align: left;
+  margin-left: 20px;
+}
 
 /* Grid */
 .column {
@@ -35,6 +69,7 @@
     flex: 5;
   }
 }
+
 /* Style */
 
 body {
@@ -47,9 +82,9 @@ body {
 
 .column {
   padding: 15px;
-  border: 1px solid #666;
+  /* border: 1px solid #666; */
   margin: 5px 0;
-  background: #343436;
+  /* background: #343436; */
 }
 
 main {

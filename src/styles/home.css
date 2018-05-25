@@ -1,7 +1,7 @@
 /*top background*/
 .intro-header { 
   padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   /* text-align: center; */
   /* background: url('../img/03434_antelopecanyon_1920x1080.jpg') no-repeat center center fixed; */
   background-size: cover;
@@ -47,11 +47,11 @@
 .intro-message img {
   /* display: block; */
   max-width: 800px;
-  /* width: 100%; */
-  /* height: auto; */
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 .header-slideshow {
@@ -117,4 +117,12 @@ hr.intro-divider {
   text-shadow: 1px 1px 1px rgba(0,0,0, 20);
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
   letter-spacing: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  .intro-message img {
+    min-height: 500px;
+    width: auto;
+    /* background-color: green; */
+  }
 }
