@@ -12,8 +12,7 @@ export default function Portfolio() {
       deploy: "https://schedio.netlify.com",
       screenshot: require('../img/schedio.png'),
       title: "Schedio",
-      // comment: `Yelp API, Google Maps API, Sports API`,
-      comment: "Schedio is the Greek word for design. We give users the freedom to design their own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.",
+      comment: "Schedio is the Greek word for design. Design your own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.",
       client: "https://github.com/thinkful-ei18/schedio-client",
       server: "https://github.com/thinkful-ei18/schedio_server",
     },
@@ -48,7 +47,7 @@ export default function Portfolio() {
               </h3>
             </div>
           </div>
-          <div className="row">
+          <div className="portfolio-input">
             {data.map(item => {
               return <PortfolioInput 
                 deploy={item.deploy} 

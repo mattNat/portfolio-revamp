@@ -14,6 +14,9 @@ export default function AboutMe() {
             <FontAwesome className="about-icon" name="superscript" size="1x"/>
             <p className="about-word">Math</p>
             <br/>
+            <FontAwesome className="about-icon" name="linux" size="1x"/>
+            <p className="about-word">Linux</p>
+            <br/>
             <FontAwesome className="about-icon" name="fire" size="1x"/>
             <p className="about-word">Passion</p>
             <br/>
