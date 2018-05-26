@@ -27,6 +27,7 @@ export default function ComputerBuild() {
           <ul id="small-text" className="text-muted">
             <li><em>[Graphics Card]</em> EVGA Nvidia GeForce GTX 760 SC 4GB GDDR5</li> 
             <li><em>[Motherboard]</em> ASUS Maximus VI Hero</li>
+            <li><em>[Sound Card]</em> Creative Sound Blaster Zx PCIe</li>                       
             <li><em>[Processor]</em> Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz</li>
             <li><em>[RAM]</em> Corsair Vengeance (2x8GB) DDR3 1600 MHz</li>           
           </ul>

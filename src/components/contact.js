@@ -23,15 +23,15 @@ export default function Contact() {
                   </li> */}
                   <li>
                     <a href="mailto:mattsanpedro76@gmail.com" className="btn btn-default btn-lg">
-                    <i className="fa fa-envelope-o fa-fw" /> <span className="network-name">Email</span></a>
+                    <i class="far fa-envelope"></i> <span className="network-name">Email</span></a>
                   </li>
                   <li>
                     <a href="https://github.com/mattNat" target="_blank" className="btn btn-default btn-lg ">
-                    <i className="fa fa-github fa-fw" /> <span className="network-name">Github</span></a>
+                    <i className="fab fa-github" /> <span className="network-name">Github</span></a>
                   </li>
                   <li>
                     <a href="https://www.linkedin.com/in/matthew-san-pedro-m-s-34585623/" target="_blank" className="btn btn-default btn-lg">
-                    <i className="fa fa-linkedin fa-fw" /> <span className="network-name">Linkedin</span></a>
+                    <i class="fab fa-linkedin-in"></i> <span className="network-name">Linkedin</span></a>
                   </li>
                   {/* <li>
                     <a href="https://www.freecodecamp.com/thiagoferreira" target="_blank" className="btn btn-default btn-lg"><i className="fa fa-free-code-camp fa-fw" /> <span className="network-name">freeCodeCamp</span></a>

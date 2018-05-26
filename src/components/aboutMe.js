@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/aboutMe.css';
 import ProfilePic from '../img/profilePic.JPG';
-import FontAwesome from 'react-fontawesome';
 
 export default function AboutMe() {
   return (
@@ -11,16 +10,16 @@ export default function AboutMe() {
         <div className="column">
           <h1>About</h1>
           <div className="about-font">
-            <FontAwesome className="about-icon" name="superscript" size="1x"/>
-            <p className="about-word">Math</p>
-            <br/>
-            <FontAwesome className="about-icon" name="linux" size="1x"/>
+            <i className="fab fa-linux"></i>
             <p className="about-word">Linux</p>
             <br/>
-            <FontAwesome className="about-icon" name="fire" size="1x"/>
+            <i className="fas fa-space-shuttle"></i>
+            <p className="about-word">Math</p>
+            <br/>
+            <i className="fas fa-fire"></i>
             <p className="about-word">Passion</p>
             <br/>
-            <FontAwesome className="about-icon" name="paint-brush" size="1x"/>
+            <i className="fas fa-paint-brush"></i>
             <p className="about-word">Creativity</p>
           </div>
         </div>

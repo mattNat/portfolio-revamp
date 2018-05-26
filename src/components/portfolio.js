@@ -12,7 +12,7 @@ export default function Portfolio() {
       deploy: "https://schedio.netlify.com",
       screenshot: require('../img/schedio.png'),
       title: "Schedio",
-      comment: "Schedio is the Greek word for design. Design your own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.",
+      comment: "An app for the traveller.  Design your own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.  Keep things organized.",
       client: "https://github.com/thinkful-ei18/schedio-client",
       server: "https://github.com/thinkful-ei18/schedio_server",
     },
@@ -20,7 +20,7 @@ export default function Portfolio() {
       deploy: "https://admiring-liskov-604b28.netlify.com/",
       screenshot: require('../img/spanishTutor.png'),
       title: "Spanish Tutor",
-      comment: "Spanish Tutor is a quiz app designed to adapt to your learning needs. This means that questions you get right more often will be asked later. The questions you tend to get wrong will be asked again sooner.",
+      comment: "Spanish Tutor is a quiz app designed with a space-repetition algorithm. Pick up Spanish terms with questions tailored to each user's needs.",
       client: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Client",
       server: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Server",
     },
@@ -43,8 +43,14 @@ export default function Portfolio() {
             <div className="col-lg-12 text-center portfolio-intro">
               <h2 className="section-heading">Work</h2>
               <h3 id="below-section" className="section-subheading text-muted">
-                Recent projects all built with MERN Stack.
+                Recent projects all built with MERN Stack
               </h3>
+              <h4>
+                <i className="fas fa-database work-icon"></i> MongoDB
+                <i className="fab fa-js work-icon"></i> Express.js
+                <i className="fab fa-react work-icon"></i> React.js
+                <i className="fab fa-node-js work-icon"></i> Node.js 
+              </h4>
             </div>
           </div>
           <div className="portfolio-input">
