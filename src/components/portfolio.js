@@ -25,7 +25,7 @@ export default function Portfolio() {
       server: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Server",
     },
     {
-      deploy: "http://gracious-bose-61bbb2.netlify.com",
+      deploy: "https://hiking-friend.netlify.com",
       screenshot: require('../img/hikingFriend.png'),
       title: "Hiking Friend",
       comment: "An earlier version of Schedio.  Combines both the Google Geolocations API and Hiking Project API to search hiking trails within a 10 mile radius.  Important trail data is displayed such as trail conditions, round-trip distance, and elevation.",
@@ -41,9 +41,9 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center portfolio-intro">
-              <h2 className="section-heading">Portfolio</h2>
+              <h2 className="section-heading">Work</h2>
               <h3 id="below-section" className="section-subheading text-muted">
-                Recent work all built with MERN Stack.
+                Recent projects all built with MERN Stack.
               </h3>
             </div>
           </div>

@@ -1,0 +1,28 @@
+.computer-build {
+  background-color: #eee;
+  padding-top: 1px;
+  padding-bottom: 70px;
+}
+
+.computer-build h3 {
+  color: black;
+}
+
+.computer-build em {
+  color: blue;
+  font-weight: 800px;
+}
+
+.specs {
+  margin-left: 10px;
+  margin-top: -20px;
+}
+
+.computer-build img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 300px;
+  border: 2px outset black;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/home.css';
-import OahuBeach from '../img/20170830_095819.jpg';
+// import OahuBeach from '../img/20170830_095819.jpg';
 
 export default function Home() {
   return (
