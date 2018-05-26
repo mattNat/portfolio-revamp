@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import PortfolioInput from './portfolioInput';
+import PortfolioHeader from './portfolioHeader';
 import '../styles/portfolio.css';
 
 // images from projects
@@ -41,16 +42,7 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center portfolio-intro">
-              <h2 className="section-heading">Work</h2>
-              <h3 id="below-section" className="section-subheading text-muted">
-                Recent projects all built with MERN Stack
-              </h3>
-              <h4>
-                <i className="fas fa-database work-icon"></i> MongoDB
-                <i className="fab fa-js work-icon"></i> Express.js
-                <i className="fab fa-react work-icon"></i> React.js
-                <i className="fab fa-node-js work-icon"></i> Node.js 
-              </h4>
+              <PortfolioHeader/>
             </div>
           </div>
           <div className="portfolio-input">

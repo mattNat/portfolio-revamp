@@ -20,8 +20,8 @@ export default function PortfolioInput(props) {
             {props.comment} <br/>
             <div className="portfolio-bottom">
               <a href={props.deploy}><i class="fas fa-cubes"></i>  Live App</a>
-              <a href={props.client}><i class="fab fa-github"></i> Client</a>
-              <a href={props.server}><i class="fas fa-database"></i> Server</a>       
+              <a href={props.client}><i class="fab fa-github"></i>  Client</a>
+              <a href={props.server}><i class="fas fa-database"></i>  Server</a>       
             </div>
           </p>
         </div>

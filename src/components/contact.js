@@ -18,9 +18,6 @@ export default function Contact() {
               <br />
               <div className="col-lg-6">
                 <ul className="list-inline banner-social-buttons">
-                  {/* <li>
-                    <a href="mailto:mattsanpedro76@gmail.com" target="_blank" className="btn btn-default btn-lg"><i className="fa fa-twitter fa-fw" /> <span className="network-name">Email</span></a>
-                  </li> */}
                   <li>
                     <a href="mailto:mattsanpedro76@gmail.com" className="btn btn-default btn-lg">
                     <i class="far fa-envelope"></i> <span className="network-name">Email</span></a>
@@ -33,13 +30,9 @@ export default function Contact() {
                     <a href="https://www.linkedin.com/in/matthew-san-pedro-m-s-34585623/" target="_blank" className="btn btn-default btn-lg">
                     <i class="fab fa-linkedin-in"></i> <span className="network-name">Linkedin</span></a>
                   </li>
-                  {/* <li>
-                    <a href="https://www.freecodecamp.com/thiagoferreira" target="_blank" className="btn btn-default btn-lg"><i className="fa fa-free-code-camp fa-fw" /> <span className="network-name">freeCodeCamp</span></a>
-                  </li> */}
                 </ul>
               </div>
             </div>
-            {/* /.container */}
           </div>
         </div>
       </div>

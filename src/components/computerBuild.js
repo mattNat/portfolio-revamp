@@ -7,9 +7,9 @@ export default function ComputerBuild() {
   return (
     <div className="computer-build">
       <div className="text-center portfolio-intro">
-        <h2 className="section-heading">My Development Desktop</h2>
+        <h2 className="section-heading">My Desktop</h2>
         <h3 id="below-section" className="section-subheading text-muted">
-          Custom made, built from scratch 
+          Custom made <br/> Built from scratch 
         </h3>
       </div>
       <div className="row">
@@ -20,8 +20,8 @@ export default function ComputerBuild() {
           <h3 className="text-muted">Specifications</h3>
           <p id="small-text" className="text-muted">Operating Systems (Dual Boot)</p>
           <ul id="small-text" className="text-muted">
-            <li><em>[Web Development]</em> Ubuntu 16.04.4 LTS 64-bit</li>
-            <li><em>[Gaming]</em> Windows 10 64-bit</li>            
+            <li><em>[Web Development]</em> Ubuntu 16.04 LTS</li>
+            <li><em>[Gaming]</em> Windows 10</li>            
           </ul>
           <p id="small-text" className="text-muted">Hardware</p>
           <ul id="small-text" className="text-muted">
