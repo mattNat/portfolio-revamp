@@ -125,7 +125,8 @@ section {
 }
 
 .portfolio-bottom a {
-  color: red;
+  font-size: 120%;
+  color: tomato;
   margin-right: 10px;
 }
 
@@ -162,6 +163,10 @@ section {
   }
 }
 
+.portfolio-hover-content i {
+  font-size: 200%;
+}
+
 @media (max-width:767px) {
   .portfolio-item img {
     /* max-height: 200px;
@@ -177,7 +182,14 @@ section {
     border-radius: 8px;
   }
 
+  
   /* .portfolio-caption {
     background-color: green;
   } */
+}
+
+@media (max-width:360px) {
+  .portfolio-bottom a {
+    display: block;
+  }
 }

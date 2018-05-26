@@ -7,7 +7,8 @@ export default function PortfolioInput(props) {
         <a href={props.deploy} target="_blank" className="portfolio-link" data-toggle="modal">
           <div className="portfolio-hover">
             <div className="portfolio-hover-content">
-              <i className="fa fa-linux fa-3x" />
+              <i class="fas fa-cubes"></i>
+              <h2>Live App</h2>
             </div>
           </div>
           <img src={props.screenshot} className="img-responsive" alt />
