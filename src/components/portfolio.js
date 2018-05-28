@@ -18,7 +18,7 @@ export default function Portfolio() {
       server: "https://github.com/thinkful-ei18/schedio_server",
     },
     {
-      deploy: "https://admiring-liskov-604b28.netlify.com/",
+      deploy: "https://spanishtutor.netlify.com",
       screenshot: require('../img/spanishTutor.png'),
       title: "Spanish Tutor",
       comment: "Spanish Tutor is a quiz app designed with a space-repetition algorithm. Learn Spanish terms with questions tailored to each user's needs.  Receive feedback and check progress.",
@@ -31,7 +31,8 @@ export default function Portfolio() {
       title: "Hiking Friend",
       comment: "For those seeking adventure outdoors.  Combines both the Google Geolocations API and Hiking Project API to search hiking trails within a 10 mile radius.  Important trail data includes conditions, round-trip distance, and elevation.",
       client: "https://github.com/mattNat/hiking-app/tree/master/client",
-      server: "https://github.com/mattNat/hiking-app/tree/master/server",
+      // server: "https://github.com/mattNat/hiking-app/tree/master/server",
+      server: "https://github.com/mattNat/nestle-server",
     },
   ]
 
