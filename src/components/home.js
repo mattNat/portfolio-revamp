@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/home.css';
 // import OahuBeach from '../img/20170830_095819.jpg';
 

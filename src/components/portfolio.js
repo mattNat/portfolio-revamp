@@ -1,11 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import PortfolioInput from './portfolioInput';
 import PortfolioHeader from './portfolioHeader';
 import '../styles/portfolio.css';
-
-// images from projects
-import SchedioDash from '../img/schedio.png';
     
 export default function Portfolio() {
   const data = [
@@ -37,8 +34,8 @@ export default function Portfolio() {
   ]
 
   return (
-    <div className="portfolio">
-      <a name="portfolio" />
+    <div className="portfolio" role="button">
+      <a name="portfolio"/>
       <section id="portfolio" className="bg-light-gray bounds">
         <div className="container">
           {/* <div className="row"> */}
@@ -48,15 +45,19 @@ export default function Portfolio() {
           {/* </div> */}
           <div className="portfolio-input">
             {data.map(item => {
-              return <PortfolioInput 
-                deploy={item.deploy} 
-                screenshot={item.screenshot} 
-                title={item.title} 
-                comment={item.comment} 
-                client={item.client}
-                server={item.server}
-                tech={item.tech}
-              />
+              return (
+                <div key={item.title}>
+                  <PortfolioInput 
+                    deploy={item.deploy} 
+                    screenshot={item.screenshot} 
+                    title={item.title} 
+                    comment={item.comment} 
+                    client={item.client}
+                    server={item.server}
+                    tech={item.tech}
+                  />
+                </div>
+              ) 
             })}
           </div>
         </div>

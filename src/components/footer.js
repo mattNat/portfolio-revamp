@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/footer.css';
 
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="col-lg-12">
               <ul className="list-inline">
                 <li>
-                  <a href="#">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li className="footer-menu-divider">⋅</li>
                 <li>

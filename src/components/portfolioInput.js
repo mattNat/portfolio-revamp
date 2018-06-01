@@ -7,22 +7,22 @@ export default function PortfolioInput(props) {
         <a href={props.deploy} target="_blank" className="portfolio-link" data-toggle="modal">
           <div className="portfolio-hover">
             <div className="portfolio-hover-content">
-              <i class="fas fa-cubes"></i>
+              <i className="fas fa-cubes"></i>
               <h2>Live App</h2>
             </div>
           </div>
-          <img src={props.screenshot} className="img-responsive" alt />
+          <img src={props.screenshot} className="img-responsive" alt={`${props.title} landing`} />
         </a>
       </div>
       <div className="column portfolio-caption">
         <div className="portfolio-caption">
           <h4>{props.title}</h4>
-          <p id="small-text" className="text-muted">
+          <div id="small-text" className="text-muted">
             {props.comment} <br/>
             <div className="portfolio-bottom">
-              <a href={props.deploy}><i class="fas fa-cubes"></i>  Live App</a>
-              <a href={props.client}><i class="fab fa-github"></i>  Client</a>
-              <a href={props.server}><i class="fas fa-database"></i>  Server</a>     
+              <a href={props.deploy}><i className="fas fa-cubes"></i>  Live App</a>
+              <a href={props.client}><i className="fab fa-github"></i>  Client</a>
+              <a href={props.server}><i className="fas fa-database"></i>  Server</a>     
               <br/>
               <h5>
                 <i className="fas fa-database work-icon"></i> MongoDB
@@ -37,7 +37,7 @@ export default function PortfolioInput(props) {
               </h5>
               <br/>
             </div>
-          </p>
+          </div>
         </div>
       </div>      
     </div>
