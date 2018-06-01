@@ -32,7 +32,7 @@ export default function Portfolio() {
       comment: "For those seeking adventure outdoors.  Combines both the Google Geolocations API and Hiking Project API to search hiking trails within a 10 mile radius.  Important trail data includes conditions, round-trip distance, and elevation.",
       client: "https://github.com/mattsanpedro7/hiking-app/tree/master/client",
       // server: "https://github.com/mattNat/hiking-app/tree/master/server",
-      server: "https://github.com/mattsanpedro7/nestle-server",
+      server: "https://github.com/mattsanpedro7/hiking-app/tree/master/server",
     },
   ]
 
