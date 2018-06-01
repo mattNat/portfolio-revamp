@@ -41,11 +41,11 @@ export default function Portfolio() {
       <a name="portfolio" />
       <section id="portfolio" className="bg-light-gray bounds">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center portfolio-intro">
+          {/* <div className="row"> */}
+            <div className="text-center portfolio-intro">
               <PortfolioHeader/>
             </div>
-          </div>
+          {/* </div> */}
           <div className="portfolio-input">
             {data.map(item => {
               return <PortfolioInput 
@@ -55,6 +55,7 @@ export default function Portfolio() {
                 comment={item.comment} 
                 client={item.client}
                 server={item.server}
+                tech={item.tech}
               />
             })}
           </div>
