@@ -23,7 +23,7 @@ export default function Contact() {
                     <i class="far fa-envelope"></i> <span className="network-name">Email</span></a>
                   </li>
                   <li>
-                    <a href="https://github.com/mattNat" target="_blank" className="btn btn-default btn-lg ">
+                    <a href="https://github.com/mattsanpedro7" target="_blank" className="btn btn-default btn-lg ">
                     <i className="fab fa-github" /> <span className="network-name">Github</span></a>
                   </li>
                   <li>
