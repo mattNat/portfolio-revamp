@@ -1,5 +1,5 @@
 import React from 'react';
-import ComputerPic from '../img/computerBuild.jpg'
+import ComputerPic from '../img/computerBuildShrink.jpg'
 
 import '../styles/computerBuild.css';
 
