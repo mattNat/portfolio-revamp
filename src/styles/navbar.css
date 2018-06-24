@@ -33,7 +33,7 @@ header nav ul {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	border-right: 20px solid rgba(0,0,0,0.7);
+	border-right: 20px solid rgba(0,0,0,0.5);
 }
 
 header nav ul li {
@@ -43,7 +43,7 @@ header nav ul li {
 	display: inline-block;
 	width: 25%;
 	text-align: center;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.5);
 }
 
 header nav ul li:hover {
@@ -74,8 +74,8 @@ header {
 	/* top, transparent red, faked with gradient */ 
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.45), 
-      rgba(0, 0, 0, 0.45)
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
     );
     /* url('../img/navBarShrink.jpg'); */
 	background-size: 100%;
