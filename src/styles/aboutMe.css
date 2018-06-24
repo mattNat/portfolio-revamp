@@ -100,3 +100,18 @@ h1,
 h2 {
   text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+  .about-row {
+    font-size: 1.5em;
+    margin-top: -20%;
+  }
+
+  .about-row h1 {
+    font-size: 1.2em;
+  }
+
+  .img-circle {
+    width: 150px;
+  }
+}
