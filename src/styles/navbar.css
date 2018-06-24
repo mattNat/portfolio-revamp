@@ -1,4 +1,4 @@
-.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+/* .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } */
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }
 
@@ -71,13 +71,13 @@ header nav ul li a:focus {
 
 header {
   /* background: url('../img/20170818_080332.jpg'); */
+	/* top, transparent red, faked with gradient */ 
   background: 
-    /* top, transparent red, faked with gradient */ 
     linear-gradient(
       rgba(0, 0, 0, 0.45), 
       rgba(0, 0, 0, 0.45)
-    ),
-    url('../img/navBarShrink.jpg');
+    );
+    /* url('../img/navBarShrink.jpg'); */
 	background-size: 100%;
 	background-attachment: fixed;
 	background-position: right top;

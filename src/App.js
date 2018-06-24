@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from './components/navbar';
 import Home from './components/home';
 import AboutMe from './components/aboutMe';
 import Portfolio from './components/portfolio';
@@ -13,7 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <div className="portfolio-web">
-          <NavBar/>
           <Home/>
           <AboutMe/>
           <Portfolio/>
