@@ -9,7 +9,10 @@ export default function AboutMe() {
         <a name="about" />
         <div className="row about-row">
           <div className="column">
+            <img className="img-circle img-responsive" src={ProfilePic} alt="profile" />
             <h1>About</h1>
+          </div>
+          <div className="column">
             <div className="about-font">
               <i className="fab fa-linux"></i>
               <p className="about-word">Linux</p>
@@ -23,9 +26,6 @@ export default function AboutMe() {
               <i className="fas fa-paint-brush"></i>
               <p className="about-word">Creativity</p>
             </div>
-          </div>
-          <div className="column">
-            <img className="img-circle img-responsive" src={ProfilePic} alt="profile" />
           </div>
           <div className="column">
             <p className="lead">

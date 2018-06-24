@@ -7,9 +7,9 @@
 
 .about-me h1 {
   padding-bottom: 20px;
-  padding-left: 10px;
-  text-align: left;
-  margin-left: 30px;
+  /* padding-left: 10px; */
+  text-align: auto;
+  /* margin-left: 30px; */
 }
 
 /* .about-font {
@@ -113,5 +113,6 @@ h2 {
 
   .img-circle {
     width: 150px;
+    margin-top: 7%;
   }
 }
