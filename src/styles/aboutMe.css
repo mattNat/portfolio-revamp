@@ -30,6 +30,14 @@
   color: black;
 }
 
+.about-contact {
+  font-size: 0.8em;
+}
+
+.about-font {
+  margin-top: 5%;
+}
+
 /*profile picture*/
 .img-circle {
   /* margin-top: 10px; */

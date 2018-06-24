@@ -21,16 +21,16 @@ export default function Contact() {
                   <div className="col-lg-6">
                     <ul className="list-inline banner-social-buttons">
                       <li>
-                        <a href="mailto:mattsanpedro76@gmail.com" className="btn btn-default btn-lg">
-                        <i className="far fa-envelope"></i> <span className="network-name">Email</span></a>
+                        <a href="mailto:mattsanpedro7@gmail.com" className="btn btn-default btn-lg">
+                        <i className="far fa-envelope"></i> <span className="network-name">mattsanpedro7@gmail.com</span></a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/in/matthew-san-pedro" target="_blank" className="btn btn-default btn-lg">
+                        <i className="fab fa-linkedin-in"></i> <span className="network-name">Linkedin</span></a>
                       </li>
                       <li>
                         <a href="https://github.com/mattsanpedro7" target="_blank" className="btn btn-default btn-lg ">
                         <i className="fab fa-github" /> <span className="network-name">Github</span></a>
-                      </li>
-                      <li>
-                        <a href="https://www.linkedin.com/in/matthew-san-pedro-m-s-34585623/" target="_blank" className="btn btn-default btn-lg">
-                        <i className="fab fa-linkedin-in"></i> <span className="network-name">Linkedin</span></a>
                       </li>
                     </ul>
                   </div>

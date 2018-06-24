@@ -13,6 +13,11 @@ export default function AboutMe() {
             <h1>About</h1>
           </div>
           <div className="column">
+            <div className='about-contact'>
+              <a href="mailto:mattsanpedro7@gmail.com">mattsanpedro7@gmail.com</a> <br/>
+              <a href="https://www.linkedin.com/in/matthew-san-pedro">LinkedIn</a> <br/>
+              <a href="https://github.com/mattsanpedro7">Github</a>
+            </div>
             <div className="about-font">
               <i className="fab fa-linux"></i>
               <p className="about-word">Linux</p>
