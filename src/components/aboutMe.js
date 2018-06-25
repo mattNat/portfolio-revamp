@@ -12,8 +12,8 @@ export default function AboutMe() {
             <img className="img-circle img-responsive" src={ProfilePic} alt="profile" />
           </div>
           <div className="column">
+            <h1>Contact</h1>
             <div className='about-contact'>
-              <h1>Contact</h1>
               <a href="mailto:mattsanpedro7@gmail.com">mattsanpedro7@gmail.com</a> <br/>
               <a href="https://www.linkedin.com/in/matthew-san-pedro">LinkedIn</a> <br/>
               <a href="https://github.com/mattsanpedro7">Github</a>
