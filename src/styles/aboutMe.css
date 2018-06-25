@@ -2,14 +2,11 @@
   padding: 50px 0;
   background-color: #eee;
   padding-right: 20px;
-  /* height: 800px; */
 }
 
 .about-me h1 {
   padding-bottom: 20px;
-  /* padding-left: 10px; */
   text-align: auto;
-  /* margin-left: 30px; */
 }
 
 /* .about-font {
@@ -36,10 +33,8 @@
 }
 
 .about-contact:hover {
-	/* background: none; */
   font-style: bold;
   transform: scale(1.1);
-  /* border-left: 1px solid black; */
 }
 
 .about-font {
@@ -48,16 +43,12 @@
 
 /*profile picture*/
 .img-circle {
-  /* margin-top: 10px; */
   position: relative;
-  /* border: 1px outset rgba(255, 255, 255, 0.3); */
   border: 2px outset black;
   
-  /* box-shadow: 1px 1px 1px rgba(0,0,0,0.6); */
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 2px solid black; */
 }
 
 .lead {
@@ -100,11 +91,7 @@ body {
 }
 
 .column {
-  /* position: relative; */
-  /* padding: 15px; */
-  /* border: 1px solid #666; */
   margin: 5px 0;
-  /* background: #343436; */
 }
 
 main {
