@@ -10,6 +10,12 @@ export default function AboutMe() {
         <div className="row about-row">
           <div className="column">
             <img className="img-circle img-responsive" src={ProfilePic} alt="profile" />
+            <div className="about-pic">
+              {/* <i className="fab fa-linux"></i> */}
+              <i class="fas fa-map-marker-alt"></i>
+              <p className="about-word">San Diego, CA</p>
+              
+            </div>
           </div>
           <div className="column">
             <h1>Contact</h1>

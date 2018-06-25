@@ -28,6 +28,10 @@
   color: black;
 }
 
+.about-pic {
+  margin-top: 5%;
+}
+
 .about-contact {
   font-size: 0.8em;
   transition: 0.6s linear;
