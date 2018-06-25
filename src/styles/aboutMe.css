@@ -32,6 +32,14 @@
 
 .about-contact {
   font-size: 0.8em;
+  transition: 0.6s linear;
+}
+
+.about-contact:hover {
+	/* background: none; */
+  font-style: bold;
+  transform: scale(1.1);
+  /* border-left: 1px solid black; */
 }
 
 .about-font {
