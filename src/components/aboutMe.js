@@ -10,10 +10,10 @@ export default function AboutMe() {
         <div className="row about-row">
           <div className="column">
             <img className="img-circle img-responsive" src={ProfilePic} alt="profile" />
-            <h1>About</h1>
           </div>
           <div className="column">
             <div className='about-contact'>
+              <h1>Contact</h1>
               <a href="mailto:mattsanpedro7@gmail.com">mattsanpedro7@gmail.com</a> <br/>
               <a href="https://www.linkedin.com/in/matthew-san-pedro">LinkedIn</a> <br/>
               <a href="https://github.com/mattsanpedro7">Github</a>
@@ -33,6 +33,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="column">
+            <h1>About</h1>
             <p className="lead">
               My passion for building things started my coding journey.  From setting up my own Linux server to learning how to deploy apps from a MERN stack, I enjoy tinkering with open-source software and discovering new things.
               <br/><br/>
