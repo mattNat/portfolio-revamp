@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PortfolioInput(props) {
   // remove "https://" from links for app display
-  const dispLink = props.deploy.slice(8);
+  const dispLink = props.deploy;
   
   return (
     <div className="portfolio-item row">
