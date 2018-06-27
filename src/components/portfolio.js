@@ -34,7 +34,7 @@ export default function Portfolio() {
   ]
 
   return (
-    <div className="portfolio" role="button">
+    <div className="portfolio">
       <a name="portfolio"/>
       <section id="portfolio" className="bg-light-gray bounds">
         <div className="container">
