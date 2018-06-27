@@ -1,6 +1,9 @@
 import React from 'react';
 
 export default function PortfolioInput(props) {
+  // remove "https://" from links for app display
+  const dispLink = props.deploy.slice(8);
+  
   return (
     <div className="portfolio-item row">
       <div className="column">
@@ -16,11 +19,11 @@ export default function PortfolioInput(props) {
       </div>
       <div className="column portfolio-caption">
         <div className="portfolio-caption">
-          <h4>{props.title}</h4>
+          <h4>{props.title} - <a href={props.deploy}>{dispLink}</a></h4>
           <div id="small-text" className="text-muted">
             {props.comment} <br/>
             <div className="portfolio-bottom">
-              <a href={props.deploy}><i className="fas fa-cubes"></i>  Live App</a>
+              {/* <a href={props.deploy}><i className="fas fa-cubes"></i>  Live App</a> */}
               <a href={props.client}><i className="fab fa-github"></i>  Client</a>
               <a href={props.server}><i className="fas fa-database"></i>  Server</a>     
               <br/>
