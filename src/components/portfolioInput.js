@@ -27,17 +27,7 @@ export default function PortfolioInput(props) {
               <a href={props.client}><i className="fab fa-github"></i>  Client</a>
               <a href={props.server}><i className="fas fa-database"></i>  Server</a>     
               <br/>
-              <h5>
-                <i className="fas fa-database work-icon"></i> MongoDB
-                <i className="fab fa-js work-icon"></i> Express.js
-                <i className="fab fa-react work-icon"></i> React.js
-                <i className="fab fa-node-js work-icon"></i> Node.js
-              </h5>
-              <h5>
-                <i className="fas fa-hdd work-icon"></i> mLab
-                <i className="fas fa-database work-icon"></i> Heroku
-                <i className="fas fa-desktop work-icon"></i> Netlify
-              </h5>
+              {props.tech}
               <br/>
             </div>
           </div>

@@ -13,6 +13,20 @@ export default function Portfolio() {
       comment: "An app for the traveller.  Design your own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.  Keep things organized.",
       client: "https://github.com/thinkful-ei18/schedio-client",
       server: "https://github.com/thinkful-ei18/schedio_server",
+      tech: 
+      <div>
+        <h5>
+          <i className="fas fa-database work-icon"></i> MongoDB
+          <i className="fab fa-js work-icon"></i> Express.js
+          <i className="fab fa-react work-icon"></i> React.js
+          <i className="fab fa-node-js work-icon"></i> Node.js
+        </h5>
+        <h5>
+          <i className="fas fa-hdd work-icon"></i> mLab
+          <i className="fas fa-database work-icon"></i> Heroku
+          <i className="fas fa-desktop work-icon"></i> Netlify
+        </h5>
+      </div>
     },
     {
       deploy: "https://spanishtutor.netlify.com",
@@ -21,6 +35,20 @@ export default function Portfolio() {
       comment: "Spanish Tutor is a quiz app designed with a space-repetition algorithm. Learn Spanish terms with questions tailored to each user's needs.  Receive feedback and check progress.",
       client: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Client",
       server: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Server",
+      tech:
+      <div>
+        <h5>
+          <i className="fas fa-database work-icon"></i> MongoDB
+          <i className="fab fa-js work-icon"></i> Express.js
+          <i className="fab fa-react work-icon"></i> React.js
+          <i className="fab fa-node-js work-icon"></i> Node.js
+        </h5>
+        <h5>
+          <i className="fas fa-hdd work-icon"></i> mLab
+          <i className="fas fa-database work-icon"></i> Heroku
+          <i className="fas fa-desktop work-icon"></i> Netlify
+        </h5>
+      </div>
     },
     {
       deploy: "https://hiking-friend.netlify.com",
@@ -30,6 +58,20 @@ export default function Portfolio() {
       client: "https://github.com/mattsanpedro7/hiking-app/tree/master/client",
       // server: "https://github.com/mattNat/hiking-app/tree/master/server",
       server: "https://github.com/mattsanpedro7/hiking-app/tree/master/server",
+      tech:
+      <div>
+        <h5>
+          <i className="fas fa-database work-icon"></i> MongoDB
+          <i className="fab fa-js work-icon"></i> Express.js
+          <i className="fab fa-react work-icon"></i> React.js
+          <i className="fab fa-node-js work-icon"></i> Node.js
+        </h5>
+        <h5>
+          <i className="fas fa-hdd work-icon"></i> mLab
+          <i className="fas fa-database work-icon"></i> Heroku
+          <i className="fas fa-desktop work-icon"></i> Netlify
+        </h5>
+      </div>
     },
   ]
 
