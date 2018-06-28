@@ -16,6 +16,10 @@ export default function Portfolio() {
       tech: 
       <div>
         <h5>
+          <i className="fab fa-google work-icon"></i> Google OAuth
+          <i className="fab fa-google work-icon"></i> Material UI
+        </h5>
+        <h5>
           <i className="fas fa-database work-icon"></i> MongoDB
           <i className="fab fa-js work-icon"></i> Express.js
           <i className="fab fa-react work-icon"></i> React.js
@@ -37,6 +41,10 @@ export default function Portfolio() {
       server: "https://github.com/thinkful-ei18/Chris-Matt-Spaced-Rep-Server",
       tech:
       <div>
+        <h5>
+          <i class="fas fa-code-branch work-icon"></i> Spaced Repetition Algorithm
+          <i class="fas fa-link work-icon"></i> Linked List
+        </h5>
         <h5>
           <i className="fas fa-database work-icon"></i> MongoDB
           <i className="fab fa-js work-icon"></i> Express.js
