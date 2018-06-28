@@ -10,7 +10,7 @@ export default function Portfolio() {
       deploy: "https://schedio.netlify.com",
       screenshot: require('../img/schedio.png'),
       title: "Schedio",
-      comment: "An app for the traveller.  Design your own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.  Keep things organized.",
+      comment: "An app for the traveller.  Design your own traveling itineraries with customizable widgets including: Google Maps API, Weather API, Yelp API, Sports API, and Hiking Project API.",
       client: "https://github.com/thinkful-ei18/schedio-client",
       server: "https://github.com/thinkful-ei18/schedio_server",
       tech: 
@@ -96,7 +96,7 @@ export default function Portfolio() {
           <div className="portfolio-input">
             {data.map(item => {
               return (
-                <div key={item.title}>
+                <div className="portfolio-entry" key={item.title}>
                   <PortfolioInput 
                     deploy={item.deploy} 
                     screenshot={item.screenshot} 

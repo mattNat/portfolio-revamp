@@ -5,6 +5,10 @@ section {
   background-size: cover;
 }
 
+.portfolio-entry {
+  margin-bottom: 10px;
+}
+
 #below-section {
   color: #000;
 }
@@ -123,6 +127,9 @@ section {
 
 .portfolio-bottom {
   text-align: center;
+  -bottom: 5px;
+  /* height: 1000px; */
+  /* background-color: green; */
 }
 
 .portfolio-bottom a {
