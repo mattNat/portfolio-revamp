@@ -5,6 +5,8 @@ import Portfolio from './components/portfolio';
 import ComputerBuild from './components/computerBuild';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Blog from './components/blog';
+
 import './App.css';
 
 class App extends Component {
@@ -17,6 +19,7 @@ class App extends Component {
           <Portfolio/>
           <ComputerBuild/>
           <Contact/>
+          <Blog/>
           <Footer/>
         </div>
       </div>
