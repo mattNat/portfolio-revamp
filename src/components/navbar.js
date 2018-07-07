@@ -14,6 +14,7 @@ export default function NavBar() {
 								<li><a href="#about" className="smoothScroll">About</a></li>
 								<li><a href="#portfolio" className="smoothScroll">Work</a></li>
 								<li><a href="#contact" className="smoothScroll">Contact</a></li>
+								<li><a href="#blog" className="smoothScroll">Blog</a></li>
 							</ul>
 						</nav>
 					</div>
