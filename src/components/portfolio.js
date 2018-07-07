@@ -42,7 +42,7 @@ export default function Portfolio() {
       tech:
       <div>
         <h5>
-          <i className="fas fa-code-branch work-icon"></i> Spaced Repetition Algorithm
+          <i className="f as fa-code-branch work-icon"></i> Spaced Repetition Algorithm
           <i className="fas fa-link work-icon"></i> Linked List
         </h5>
         <h5>
