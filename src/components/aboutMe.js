@@ -12,7 +12,7 @@ export default function AboutMe() {
             <img className="img-circle img-responsive" src={ProfilePic} alt="profile" />
             <div className="about-pic">
               {/* <i className="fab fa-linux"></i> */}
-              <i class="fas fa-map-marker-alt"></i>
+              <i className="fas fa-map-marker-alt"></i>
               <p className="about-word">San Diego, CA</p>
               
             </div>
