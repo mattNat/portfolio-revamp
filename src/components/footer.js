@@ -22,7 +22,10 @@ export default function Footer() {
                 </li>
                 <li className="footer-menu-divider">⋅</li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a href="#contact">Contact</a></li>
+                <li className="footer-menu-divider">⋅</li>                
+                <li>
+                  <a href="#blog">Blog</a>
                 </li>
               </ul>
             </div>
