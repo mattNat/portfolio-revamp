@@ -15,9 +15,9 @@ export default class Blog extends React.Component {
     componentDidMount() {
         axios.get(`http://public-api.wordpress.com/rest/v1/sites/mattdottech.wordpress.com/posts`)
             .then(res => {
-            const blogs = res.data;
-            console.log(blogs);
-            this.setState({ blogs });
+                const blogs = res.data;
+                console.log(blogs);
+                this.setState({ blogs });
             })
     }
 
