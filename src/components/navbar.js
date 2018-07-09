@@ -12,12 +12,14 @@ export default function NavBar() {
 						{/* <h2 className="companyName"></h2> */}
 						<nav className="mainNav clearfix">
 							<ul>
-								<li><a href="#home">Home</a></li>
-								<li><a href="#about" className="smoothScroll">About</a></li>
-								<li><a href="#portfolio" className="smoothScroll">Work</a></li>
-								<li><a href="#contact" className="smoothScroll">Contact</a></li>
+								<li><a href="/#home">Home</a></li>
+								<li><a href="/#about" className="smoothScroll">About</a></li>
+								<li><a href="/#portfolio" className="smoothScroll">Work</a></li>
+								<li><a href="/#contact" className="smoothScroll">Contact</a></li>
 								<li>
-									<Link to={`/blog`} style={{ textDecoration: 'none' }}> 
+									<Link to={{
+										pathname: `/blog`
+										}} style={{ textDecoration: 'none' }}> 
               			Blog
             			</Link>
 								</li>
