@@ -23,16 +23,19 @@ export default class Blog extends React.Component {
 
     render() {
         console.log(this.state.blogs.posts);
+
+        
+
         return (
             <div className="blog">
-                <header className="intro-header">
+                <header className="intro-header-blog">
                 <NavBar />
                 <div className="container">
-                    {/* <div className="intro-message"> */}
+                    <div className="intro-title">
                         <h1>Tech Blog</h1>
                         {/* <h3>Full Stack Web Developer</h3> */}
                         {/* <hr className="intro-divider" /> */}
-                    {/* </div> */}
+                    </div>
                 </div>
                 </header>
             </div>
