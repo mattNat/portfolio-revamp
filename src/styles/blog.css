@@ -35,10 +35,6 @@
 }
 
 @media(max-width:767px) {
-  .intro-header-blog {
-      padding-top: 10%;
-  }
-
   .intro-header-blog > h1 {
       font-size: 2.5em;
   }
