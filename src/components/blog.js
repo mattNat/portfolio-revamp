@@ -4,6 +4,8 @@
 import React from 'react';
 import axios from 'axios';
 
+import NavBar from './navbar';
+
 export default class Blog extends React.Component {
     state = {
         blogs: []
@@ -21,7 +23,7 @@ export default class Blog extends React.Component {
         console.log(this.state.blogs.posts);
         return (
             <div className="blog">
-                <h2>Welcome to my blog</h2>
+                <NavBar />
             </div>
         )
     }
