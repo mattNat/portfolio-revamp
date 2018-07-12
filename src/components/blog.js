@@ -15,16 +15,29 @@ export default class Blog extends React.Component {
     componentDidMount() {
         axios.get(`http://public-api.wordpress.com/rest/v1/sites/mattdottech.wordpress.com/posts`)
             .then(res => {
+                let date = [];
+                let content = [];
+
                 const blogs = res.data;
-                console.log(blogs);
-                this.setState({ blogs });
+                console.log(blogs.posts);
+                blogs.posts.map(post => {
+                    date.push(post.date);
+                    content.push(post.content);
+                })
+
+                this.setState({ 
+                    date,
+                    content
+                });
             })
     }
 
     render() {
-        console.log(this.state.blogs.posts);
-
-        
+        const posts = this.state.date || {};
+        console.log(posts);
+        // posts.map(index => {
+        //     console.log(index);
+        // })
 
         return (
             <div className="blog">
@@ -35,6 +48,9 @@ export default class Blog extends React.Component {
                         <h1>Tech Blog</h1>
                         {/* <h3>Full Stack Web Developer</h3> */}
                         {/* <hr className="intro-divider" /> */}
+                    </div>
+                    <div>
+
                     </div>
                 </div>
                 </header>
