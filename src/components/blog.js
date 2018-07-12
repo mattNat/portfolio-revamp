@@ -9,7 +9,8 @@ import '../styles/blog.css';
 
 export default class Blog extends React.Component {
     state = {
-        blogs: []
+        date: [],
+        content: [],
     }
 
     componentDidMount() {
@@ -30,10 +31,11 @@ export default class Blog extends React.Component {
                     content
                 });
             })
+            .catch(err => console.log(err))
     }
 
     render() {
-        const posts = this.state.date || {};
+        const posts = this.state || {};
         console.log(posts);
         // posts.map(index => {
         //     console.log(index);
@@ -46,14 +48,14 @@ export default class Blog extends React.Component {
                 <div className="container">
                     <div className="intro-title">
                         <h1>Tech Blog</h1>
-                        {/* <h3>Full Stack Web Developer</h3> */}
-                        {/* <hr className="intro-divider" /> */}
-                    </div>
-                    <div>
-
                     </div>
                 </div>
                 </header>
+                <div>
+                    <ul>
+                        {this.state.content.map(item => <li>{item}</li>)}
+                    </ul>
+                </div>
             </div>
         )
     }
