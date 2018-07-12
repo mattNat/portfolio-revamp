@@ -3,6 +3,7 @@
 
 import React from 'react';
 import axios from 'axios';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 import NavBar from './navbar';
 import '../styles/blog.css';
@@ -24,6 +25,8 @@ export default class Blog extends React.Component {
                 blogs.posts.map(post => {
                     date.push(post.date);
                     content.push(post.content);
+                    // console.log(typeof(post.content));
+                    
                 })
 
                 this.setState({ 
@@ -36,10 +39,12 @@ export default class Blog extends React.Component {
 
     render() {
         const posts = this.state || {};
-        console.log(posts);
+        // console.log(posts);
         // posts.map(index => {
         //     console.log(index);
         // })
+        console.log(posts.content[0]);
+        
 
         return (
             <div className="blog">
@@ -52,9 +57,10 @@ export default class Blog extends React.Component {
                 </div>
                 </header>
                 <div>
-                    <ul>
-                        {this.state.content.map(item => <li>{item}</li>)}
-                    </ul>
+                    {/* <ul> */}
+                        {ReactHtmlParser(this.state.content[0])}
+                        <td dangerouslySetInnerHTML={{__html: this.state.content[0]}} />
+                    {/* </ul> */}
                 </div>
             </div>
         )
