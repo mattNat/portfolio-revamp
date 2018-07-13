@@ -11,6 +11,7 @@ export default class Blog extends React.Component {
     state = {
         date: [],
         content: [],
+        id: [],
     }
 
     componentDidMount() {
@@ -18,17 +19,20 @@ export default class Blog extends React.Component {
             .then(res => {
                 let date = [];
                 let content = [];
+                let id = [];
 
                 const blogs = res.data;
                 console.log(blogs.posts);
                 blogs.posts.map(post => {
                     date.push(post.date);
                     content.push(post.content);
+                    id.push(post.ID);
                 })
 
                 this.setState({ 
                     date,
-                    content
+                    content,
+                    id,
                 });
             })
             .catch(err => console.log(err))
@@ -37,10 +41,13 @@ export default class Blog extends React.Component {
     
     render() {
         const posts = this.state || {};
+
+        const handleContent = posts.content.map((item, i) => {
+            console.log(posts.id[i]);
             
-        const handleContent = posts.content.map(item => {
+
             return (
-                <div dangerouslySetInnerHTML={{__html: item}} />
+                <div key={posts.id[i]} dangerouslySetInnerHTML={{__html: item}}></div>
             )
         })
         
@@ -55,7 +62,6 @@ export default class Blog extends React.Component {
                 </div>
                 </header>
                 <div className='posts'>
-                    <h1>HELLO!!!</h1>
                     {handleContent}
                 </div>
             </div>
