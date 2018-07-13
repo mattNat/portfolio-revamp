@@ -49,12 +49,13 @@ export default class Blog extends React.Component {
         const handleContent = posts.content.map((item, i) => {
             const date = posts.date[i];
             const year = date.split('').slice(0,4).join('');
-            const month = date.split('').slice(5,7).join('');
+            const monthExt = date.split('').slice(5,7).join('');
+            const month = parseInt(monthExt);
             const day = date.split('').slice(8,10).join('');
             const preview = posts.excerpt[i];
             
             console.log(preview);
-            console.log(month, day, year);
+            console.log(monthExt, month);
 
             return (
                 <div key={posts.id[i]} dangerouslySetInnerHTML={{__html: item}}></div>
