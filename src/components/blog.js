@@ -12,6 +12,7 @@ export default class Blog extends React.Component {
         date: [],
         content: [],
         id: [],
+        excerpt: [],
     }
 
     componentDidMount() {
@@ -20,6 +21,7 @@ export default class Blog extends React.Component {
                 let date = [];
                 let content = [];
                 let id = [];
+                let excerpt = [];
 
                 const blogs = res.data;
                 console.log(blogs.posts);
@@ -27,12 +29,14 @@ export default class Blog extends React.Component {
                     date.push(post.date);
                     content.push(post.content);
                     id.push(post.ID);
+                    excerpt.push(post.excerpt);
                 })
 
                 this.setState({ 
                     date,
                     content,
                     id,
+                    excerpt
                 });
             })
             .catch(err => console.log(err))
@@ -43,8 +47,14 @@ export default class Blog extends React.Component {
         const posts = this.state || {};
 
         const handleContent = posts.content.map((item, i) => {
-            console.log(posts.id[i]);
+            const date = posts.date[i];
+            const year = date.split('').slice(0,4).join('');
+            const month = date.split('').slice(5,7).join('');
+            const day = date.split('').slice(8,10).join('');
+            const preview = posts.excerpt[i];
             
+            console.log(preview);
+            console.log(month, day, year);
 
             return (
                 <div key={posts.id[i]} dangerouslySetInnerHTML={{__html: item}}></div>
