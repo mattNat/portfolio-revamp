@@ -3,7 +3,6 @@
 
 import React from 'react';
 import axios from 'axios';
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 import NavBar from './navbar';
 import '../styles/blog.css';
@@ -25,8 +24,6 @@ export default class Blog extends React.Component {
                 blogs.posts.map(post => {
                     date.push(post.date);
                     content.push(post.content);
-                    // console.log(typeof(post.content));
-                    
                 })
 
                 this.setState({ 
@@ -37,15 +34,16 @@ export default class Blog extends React.Component {
             .catch(err => console.log(err))
     }
 
+    
     render() {
         const posts = this.state || {};
-        // console.log(posts);
-        // posts.map(index => {
-        //     console.log(index);
-        // })
-        console.log(posts.content[0]);
+            
+        const handleContent = posts.content.map(item => {
+            return (
+                <div dangerouslySetInnerHTML={{__html: item}} />
+            )
+        })
         
-
         return (
             <div className="blog">
                 <header className="intro-header-blog">
@@ -56,11 +54,9 @@ export default class Blog extends React.Component {
                     </div>
                 </div>
                 </header>
-                <div>
-                    {/* <ul> */}
-                        {ReactHtmlParser(this.state.content[0])}
-                        <td dangerouslySetInnerHTML={{__html: this.state.content[0]}} />
-                    {/* </ul> */}
+                <div className='posts'>
+                    <h1>HELLO!!!</h1>
+                    {handleContent}
                 </div>
             </div>
         )
