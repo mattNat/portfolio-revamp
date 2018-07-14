@@ -5,8 +5,8 @@ import React from 'react';
 import axios from 'axios';
 
 import NavBar from './navbar';
+import BlogCard from './blog-card';
 import '../styles/blog.css';
-import '../styles/blog-card.css';
 
 export default class Blog extends React.Component {
     state = {
@@ -75,47 +75,7 @@ export default class Blog extends React.Component {
                 </header>
                 <div className='posts'>
                     {/* {handleContent} */}
-                    <div class="blog-card">
-                        <div class="photo photo1"></div>
-                        <ul class="details">
-                            <li class="author"><a href="#">John Doe</a></li>
-                            <li class="date">Aug. 24, 2015</li>
-                            <li class="tags">
-                                <ul>
-                                    <li><a href="#">Learn</a></li>
-                                    <li><a href="#">Code</a></li>
-                                    <li><a href="#">HTML</a></li>
-                                    <li><a href="#">CSS</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="description">
-                            <h1>Learning to Code</h1>
-                            <h2>Opening a door to the future</h2>
-                            <p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="blog-card alt">
-                        <div class="photo photo2"></div>
-                        <ul class="details">
-                            <li class="author"><a href="#">Jane Doe</a></li>
-                            <li class="date">July. 15, 2015</li>
-                            <li class="tags">
-                                <ul>
-                                    <li><a href="#">Learn</a></li>
-                                    <li><a href="#">Code</a></li>
-                                    <li><a href="#">JavaScript</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="description">
-                            <h1>Mastering the Language</h1>
-                            <h2>Java is not the same as JavaScript</h2>
-                            <p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>                    
+                    <BlogCard />         
                 </div>
             </div>
         )
