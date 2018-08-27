@@ -1,5 +1,7 @@
 import React from 'react';
+
 import '../styles/footer.css';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -22,8 +24,13 @@ export default function Footer() {
                 </li>
                 <li className="footer-menu-divider">⋅</li>
                 <li>
-                  <a href="#contact">Contact</a>
-                </li>
+                  <a href="#contact">Contact</a></li>
+                <li className="footer-menu-divider">⋅</li>                
+                <li>
+									<Link to={`/blog`} style={{ textDecoration: 'none' }}> 
+              			Blog
+            			</Link>
+								</li>
               </ul>
             </div>
           </div>
