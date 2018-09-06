@@ -5,9 +5,10 @@
   padding-bottom: 0px;
   background: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.6) ),
-    url('../img/mobo.jpg') no-repeat center center fixed;  
+    url('../img/blog-crop4.jpg') no-repeat center fixed; 
+    /* no-repeat center center fixed;   */
   background-size: cover;
-  height: 350px;
+  height: 400px;
 }
 
 .bg-overlay {
